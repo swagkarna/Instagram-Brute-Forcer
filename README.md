@@ -24,7 +24,7 @@ pip install InstagramAPI
 4. Sit back and wait for a valid password!
 
 **Brute force your target using a custom passwordslist:**
-1. Paste the passwords you'd like to try — you can download the most commonly used passwords [here](https://www.scrapmaker.com/data/wordlists/dictionaries/rockyou.txt).
+1. Paste the passwords you'd like to try — you can find the most commonly used passwords [here](https://www.scrapmaker.com/data/wordlists/dictionaries/rockyou.txt).
 2. Run the script.
 3. Type "2" and hit ENTER.
 4. Sit back and wait for a valid password!
