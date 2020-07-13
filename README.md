@@ -18,7 +18,7 @@ Run this command in CMD, terminal or PowerShell (if you don't already have the *
 pip install InstagramAPI
 ```
 **Brute force multiple targets:**
-1. Paste your targets' usernames, first names, last names and birthdays in Accounts.json — you can find celebrities' birthdays [here](https://www.famousbirthdays.com).
+1. Paste your targets' usernames, birthdays, first and last names in Accounts.json — you can find celebrities' birthdays [here](https://www.famousbirthdays.com).
 2. Run the script.
 3. Type "1" and hit ENTER.
 4. Sit back and wait for a valid password!
