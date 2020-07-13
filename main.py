@@ -41,9 +41,9 @@ if option in ['1', 'Accounts.json']:
         day = account[3][4:6]
 
         if int(year) <= 99 and int(year) >= int(str(datetime.now().year)[2:]):
-            full_year = '19%s' % (year)
+            full_year = '19%s' % year
         else:
-            full_year = '20%s' % (year)
+            full_year = '20%s' % year
 
         passwords.append(account[1] + full_year)
         passwords.append(account[1].upper() + full_year)
