@@ -29,7 +29,7 @@ if option in ['1', 'Accounts.json']:
             _exit(0)
 
     for index, account in enumerate(accounts):
-        account = account.split(' ')  # 0: johnsmith | 1: John | 2: Smith | 3: YYMMDD
+        account = account.split(' ')  # 0: johnsmith | 1: John | 2: Smith | 3: 010528
 
         passwords = []
         cleaned = []
